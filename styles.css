@@ -1,0 +1,245 @@
+body {
+    font-family: 'Asap Condensed', sans-serif;
+    margin:0px;
+    padding: 0px;
+}
+
+.navi {
+    float: left;
+    padding: 2px;
+    list-style: none;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.navi1 {
+    float: left;
+    padding: 2px;
+    padding-bottom: 29px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 17px;
+}
+
+img {
+    float: left;
+    width: 55px;
+    height: 55px;
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.pass {
+    float: left;
+    padding: 3px;
+    margin-left: 4px;
+    margin-top: 19px;
+}
+
+.user {
+    float: left;
+    padding: 3px;
+    margin-top: 19px;
+}
+
+.login {
+    float: left;
+    margin-top: 19px;
+    padding-top: 2.5px;
+    padding-bottom: 1.8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 10px;
+    background: #CA3941;
+    border: #CA3941 solid 2px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.logout {
+    float: left;
+    margin-top: 12px;
+    padding: 13px;
+    padding-top: -3px;
+    text-align: center;
+    margin-right: 10px;
+    background: #CA3941;
+    border: #CA3941 solid 2px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.form {
+    float: right;
+}
+
+.form1 {
+    float: right;
+    
+}
+
+.signup {
+    float: right;
+    margin-top: 23px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+nav {
+    height: 8vh;
+    background-color: black;
+    margin:0px;
+}
+
+.navi1:hover {
+    border-bottom: 2px solid #CA3941;
+}
+
+.signup-div {
+    text-align: center;
+    background: white;
+    margin-right: 735px;
+    margin-left: 735px;
+    margin-top: 70px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    border: solid black 2px;
+}
+
+.field {
+    padding: 15px;
+    padding-right: 200px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.signup-submit {
+    background: #CA3941;
+    font-size: 35px;
+    border: solid black 1px;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: grey 3px 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.out {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 30vh;
+    color: white;
+}
+
+.in {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 30vh;
+    color: white;
+}
+
+.error {
+    color: red;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.green {
+    color: green;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1080px) {
+    .signup {
+        float: right;
+        margin-top: 23px;
+        margin-left: 4px;
+        margin-top: 20px;
+        
+    }
+
+    .login {
+        float: left;
+        margin-top: 19px;
+        padding-top: 2.5px;
+        padding-bottom: 1.8px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: 4px;
+        background: #CA3941;
+        border: #CA3941 solid 2px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .logout {
+        float: left;
+        margin-top: 12px;
+        padding: 13px;
+        padding-top: -3px;
+        text-align: center;
+        margin-right: 10px;
+        background: #CA3941;
+        border: #CA3941 solid 2px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+
+    .navi1 {
+        float: left;
+        padding: 2px;
+        list-style: none;
+        text-decoration: none;
+        margin-left: 4px;
+        margin-top: 17px;
+        padding-bottom: 28px;
+    }
+
+    .signup-div {
+        text-align: center;
+        margin-right: 260px;
+        margin-left: 260px;
+        margin-top: 70px;
+        padding-top: 1px;
+        padding-bottom: 50px;
+        border: solid black 2px;
+    }
+
+    .out {
+        font-size: 90px;
+        text-align: center;
+        margin-top: 30vh;
+        color: white;
+    }
+
+    .in {
+        font-size: 90px;
+        text-align: center;
+        margin-top: 30vh;
+        color: white;
+    }
+}
+
+
